@@ -1,0 +1,12 @@
+{
+  "name": "finances-backend-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wagnerww/Finances-Backend-Prisma.git",
+  "author": "wagner <wagnerricardonet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "1.17.4",
+    "prisma-client-lib": "1.28.3"
+  }
+}
