@@ -8,5 +8,12 @@
   "dependencies": {
     "graphql-yoga": "1.17.4",
     "prisma-client-lib": "1.28.3"
+  },
+  "scripts": {
+    "start": "node src/index",
+    "dev": "npx nodemon --delay 1000ms --ext js,graphql src/index"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.10"
   }
 }
